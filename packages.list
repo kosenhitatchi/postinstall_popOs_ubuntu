@@ -1,0 +1,77 @@
+# Remi Cambuzat - Remi Cambuzat - 11/Nov/2020
+# List of package to be installed
+# Customised to fit Pop!_OS 20.04 LTS ( Custom ubuntu 20.04 LTS build)
+################################################################################
+
+# ********************** Tool ******************************
+ 
+ppa:linuxuprising/shutter
+shutter # Advanced screen capture tool
+
+# ********************** Autres ******************************
+ 
+#deb http://www-personal.umich.edu/~tjwatt/suldr/ debian extra > samsungCLX3175_driver.list
+ 
+# ********************** Productivity ******************************
+ 
+libreoffice # free and open-source complete office suite 
+okular okular-extra-backends kde-l10n-fr # PDF Reader
+acroread-bin acroread-common acroread adobereader-fra # PDF adobe reader Reader
+
+# ********************** Education ******************************
+ 
+# ********************** Graphisme ******************************
+ 
+gimp gimp-help-fr # retouche d'image matriciels 
+inkscape # logiciel de dessin vectoriel
+
+# ********************** Internet ******************************
+ 
+deluge # Torrent client deluge
+-transmission-common transmission-gtk # remove 'transmission' torrent client installed by default in Gnome
+
+firefox # web browser 
+ppa:xalt7x/chromium-deb-vaapi # Reposity containing the .deb version of chromium
+chromium-browser chromium-codecs-ffmpeg-extra # web browser (open souce version of chrome)
+
+deb https://deb.opera.com/opera-stable/ stable non-free > opera.list
+key:A5C7FF72
+opera-stable #Opera web Browser
+ 
+pidgin # Instant messaging app
+ 
+-empathy empathy-common nautilus-sendto-empathy # Remove 'empathy' sofwatare (installed by default)
+ 
+thunderbird thunderbird-locale-fr thunderbird-gnome-support # Email Client
+ 
+# ********************** Utilitaire ****************************** 
+
+nautilus-dropbox # Addon Dropbox for the nautilus file system : On-line storage and files synchronisation
+dropbox update
+meld # visual diff and merge tool targeted at developers
+ 
+# ********************** Games ******************************
+ 
+frozen-bubble # jeux où il faut exploser des boules en en associant 3 par couleur
+ 
+# ********************** System tools ******************************
+ 
+htop # monitoring mémoire / cpu ...
+language-pack-fr language-pack-gnome-fr # pack de langue pour completement franciser Ubuntu
+#!!! gnome-shell-system-monitor-applet # Display system informations in gnome shell status bar
+
+ 
+# ********************** Sond and video ******************************
+
+ubuntu-restricted-extras # codecs audio-vidéo non libres
+vlc # lecteur multimédia (audio/vidéo)
+clementine #Clementine Music Player
+
+# ********************** Outils (non desktop) ******************************
+ 
+autofs # montage automatique de système de fichier distant
+nfs-common # client NFS
+ 
+default-jre icedtea-plugin #Framework JRE Java, and webbrowser plugin
+# flashplugin-installer # Flash player -- [Flash wont be maintained from 31 dec 2020] https://doc.ubuntu-fr.org/flashplayer
+vim # editeur VI amélioré
