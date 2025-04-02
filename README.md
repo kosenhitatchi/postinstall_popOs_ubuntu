@@ -1,3 +1,5 @@
+# --- This script is deprecated --
+
 # postinstall_popOs_ubuntu
 A post-install script intended to automate my packages installation on [Pop!_OS 20.04](https://pop.system76.com/) (Ubuntu 20.04 LTS variant)
 
